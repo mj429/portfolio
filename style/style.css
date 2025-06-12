@@ -1,0 +1,144 @@
+h1{
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(248, 250, 248);
+    font-style: normal;
+    text-align: center;
+
+}
+
+section{
+    text-align: center;
+}
+img{
+    height:250px; 
+    width: 250px;
+    border-radius: 300px;
+}
+
+.glow-image {
+  width: 250px; /* Adjust as needed */
+  border-radius: 300px; /* Optional: makes corners rounded */
+  box-shadow: 0 0 20px rgba(55, 0, 255, 0.8); /* Cyan glow */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image {
+  width: 250px;
+  border-radius: 300px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.9);
+}
+
+
+
+h2{
+    margin-left: 220px;
+    text-align: center;
+    font-weight: 400;
+}  
+
+a .portfolio{
+    color: rgb(255, 207, 47);
+    text-decoration: none;
+}
+
+a .portfolio:hover{
+    color: aqua;
+    float: right;
+    text-decoration: underline;
+}
+
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+a:visited {
+    color:rgb(40, 255, 75);
+    display: inline-block;
+    padding: 14px;
+}
+    
+a:active{
+   color: rgb(0, 0, 0);
+   text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+    border: 8cap;
+}
+h4{
+    margin-left:50px;
+    color: blueviolet;
+    border: 5px;;
+    border-color: rgb(251, 255, 0);
+}
+p{
+    text-align: center;
+
+}
+footer{
+    background-color: #009dff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #0c8ed4;
+    padding: 30px;
+    color:#de1111;
+    text-align: right;
+    
+}
+span{
+    font-size: 40px;
+    font-family: brush script mt;
+    font-weight: 500px;
+    color: rgb(245, 47, 12);
+    text-align: left;
+}
+span1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: chartreuse;
+    font-style: normal;
+}
+logo{font-size: 2cap;
+    font-style: bold;
+
+}
+dark mode style {
+    background-color: #121212;
+    color: white;
+}
+dark mode header{
+    background-color: #1e1e1e;
+    color: white;
+}
+div{
+    lighting-color: brown;
+}
+nav a{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin-left: 3.5rem;
+    transition: 5s;
+}
+nav a:hover{
+            color:var(--white-color)
+}
+#menu-icon{
+    font-size: 4px;
+    display: none;
+}
+p3{
+    text-align:right;
+}
